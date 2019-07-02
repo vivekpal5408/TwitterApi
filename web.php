@@ -21,3 +21,6 @@ Route::get('/tweets','TestController@index');
 Route::post('/showFeeds','TestController@showFeeds');
 
 Route::get('/showDemo','TestController@showDemo');
+
+
+Route::get('assignment','AssignmentController@index');
